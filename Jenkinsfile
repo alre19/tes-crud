@@ -19,6 +19,7 @@ pipeline {
                 }
             }
         }
+		
         stage("Push image") {
             steps {
                 script {
