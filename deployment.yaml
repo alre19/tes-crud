@@ -21,7 +21,7 @@ spec:
         - env:
             - name: WHATEVER_ENV
               value: WHATEVER_VALUE
-          image: danztensai123/php_simple_curd
+          image: alre19/tes-crud
           imagePullPolicy: Always
           name: crud-php
           ports:
